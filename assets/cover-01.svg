@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1040" viewBox="0 0 800 1040" role="img" aria-label="Bìa minh họa demo Dưới Ánh Đèn Đêm">
+<defs><pattern id="stars" width="88" height="86" patternUnits="userSpaceOnUse"><circle cx="14" cy="20" r="2" fill="#94B6E9"/><circle cx="57" cy="68" r="1.7" fill="#94B6E9"/></pattern></defs>
+<rect width="800" height="1040" fill="#102852"/><rect x="24" y="24" width="752" height="992" rx="10" fill="none" stroke="#9ABDEC" stroke-width="3"/>
+<rect x="42" y="42" width="716" height="956" fill="url(#stars)"/>
+<text x="69" y="96" fill="#BED6FF" font-size="23" letter-spacing="5" font-family="Arial,sans-serif" font-weight="bold">TRIDENT STORIES / 001</text>
+<rect x="444" y="272" width="267" height="342" rx="12" fill="#234D8E" stroke="#AEC9F0" stroke-width="12"/><line x1="577" y1="281" x2="577" y2="611" stroke="#AEC9F0" stroke-width="10"/><line x1="453" y1="432" x2="703" y2="432" stroke="#AEC9F0" stroke-width="10"/>
+<path d="M589 268 L378 690 L768 690Z" fill="#F8DC89" opacity=".22"/>
+<path d="M584 191L678 272H492Z" fill="#F6D889" stroke="#131D35" stroke-width="11" stroke-linejoin="round"/><line x1="584" y1="125" x2="584" y2="191" stroke="#F6D889" stroke-width="12"/><circle cx="584" cy="276" r="17" fill="#FFF2AF"/>
+<path d="M0 775 L800 775 L800 1040 L0 1040Z" fill="#1E3F74"/>
+<path d="M115 810 Q150 645 255 661 Q369 667 393 816" fill="#315C98" stroke="#07172E" stroke-width="10"/><ellipse cx="248" cy="603" rx="100" ry="115" fill="#E2B5A6" stroke="#07172E" stroke-width="10"/><path d="M148 603Q129 487 225 478Q333 476 341 564Q299 542 272 515Q234 570 151 587Z" fill="#162643"/><path d="M194 613l21 0m70 0l20 0" stroke="#152744" stroke-width="6" stroke-linecap="round"/><path d="M243 663q17 8 29-1" stroke="#A26D65" stroke-width="5" fill="none"/>
+<path d="M0 819 L800 790" stroke="#07172E" stroke-width="11"/><path d="M338 749l192-49 35 92-182 45Z" fill="#F8F2E5" stroke="#152743" stroke-width="10"/><path d="M397 766l95-25M405 788l82-21" stroke="#6F8EC4" stroke-width="6"/>
+<rect x="58" y="146" width="433" height="246" rx="15" fill="#E9F1FA" stroke="#07172E" stroke-width="9"/>
+<path d="M161 392l52 38-4-38" fill="#E9F1FA" stroke="#07172E" stroke-width="9"/><rect x="178" y="386" width="72" height="15" fill="#E9F1FA"/>
+<text x="86" y="217" fill="#24539B" font-size="63" font-family="Arial,sans-serif" font-weight="900">DƯỚI ÁNH</text><text x="86" y="294" fill="#24539B" font-size="63" font-family="Arial,sans-serif" font-weight="900">ĐÈN ĐÊM</text><text x="90" y="349" fill="#25364B" font-size="22" font-family="Arial,sans-serif">Một lựa chọn. Nhiều cảm xúc.</text>
+<rect x="54" y="935" width="312" height="44" rx="3" fill="#F5DB8C"/><text x="72" y="964" fill="#183460" font-size="20" font-weight="bold" font-family="Arial,sans-serif">MINH HỌA BÌA DEMO</text>
+</svg>

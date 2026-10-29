@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1040" viewBox="0 0 800 1040" role="img" aria-label="Khung giữ chỗ cho bìa truyện 03">
+<rect width="800" height="1040" fill="#1D417B"/><rect x="24" y="24" width="752" height="992" rx="8" fill="none" stroke="#B3D0F5" stroke-width="5"/>
+<path d="M80 280L660 110L748 450L166 620Z" fill="#F5F1E8" stroke="#081F43" stroke-width="12"/>
+<path d="M42 580L618 430L748 875L148 1000Z" fill="#93B9EC" stroke="#081F43" stroke-width="12"/>
+<path d="M198 163L300 410L417 137" fill="none" stroke="#2A58A7" stroke-width="30" stroke-linecap="round"/>
+<circle cx="522" cy="731" r="144" fill="#E9F1FA" stroke="#0E2A52" stroke-width="11"/><path d="M490 646l76 60-75 88" fill="none" stroke="#2A58A7" stroke-width="19" stroke-linejoin="round"/>
+<text x="67" y="109" fill="#D7E9FF" font-family="Arial,sans-serif" font-size="26" font-weight="bold" letter-spacing="6">TRIDENT STORIES / 003</text>
+<text x="112" y="292" fill="#1E417B" font-family="Arial,sans-serif" font-size="115" font-weight="900">COMIC</text><text x="123" y="412" fill="#1E417B" font-family="Arial,sans-serif" font-size="136" font-weight="900">03.</text>
+<rect x="50" y="886" width="486" height="90" fill="#F5F1E8" stroke="#0E2A52" stroke-width="8"/><text x="77" y="940" fill="#1D417B" font-family="Arial,sans-serif" font-size="29" font-weight="bold">BÌA TRUYỆN ĐANG CẬP NHẬT</text>
+</svg>

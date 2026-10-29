@@ -1,0 +1,4 @@
+Đặt 2 font do bạn sở hữu vào thư mục này (không đổi tên):
+1. Cloud24-Reg.ttf
+2. DiscotecaRounded_Free_For_Personal_Use.ttf
+Không kèm sẵn font trong gói website. Website sẽ dùng phông dự phòng khi font chưa được thêm.

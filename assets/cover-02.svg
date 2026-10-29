@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1040" viewBox="0 0 800 1040" role="img" aria-label="Khung giữ chỗ cho bìa truyện 02">
+<rect width="800" height="1040" fill="#DCE9F8"/><rect x="24" y="24" width="752" height="992" rx="8" fill="none" stroke="#234F99" stroke-width="5"/>
+<path d="M0 595L800 320V815L0 1000Z" fill="#2A58A7"/><path d="M-60 870L720 120" stroke="#0E2A52" stroke-width="25"/><path d="M135 1030L840 321" stroke="#86ADE3" stroke-width="20"/>
+<circle cx="546" cy="452" r="181" fill="#F6F2E9" stroke="#13294C" stroke-width="11"/><circle cx="546" cy="452" r="136" fill="none" stroke="#2A58A7" stroke-width="8" stroke-dasharray="15 20"/>
+<text x="71" y="117" fill="#1A3B73" font-family="Arial,sans-serif" font-size="27" font-weight="bold" letter-spacing="6">TRIDENT STORIES / 002</text>
+<text x="67" y="266" fill="#163B76" font-family="Arial,sans-serif" font-size="100" font-weight="900">COMIC</text><text x="64" y="368" fill="#163B76" font-family="Arial,sans-serif" font-size="135" font-weight="900">02.</text>
+<path d="M390 745h320v94H390z" fill="#F5EFE5" stroke="#0F2D54" stroke-width="7"/><text x="413" y="802" fill="#19417E" font-family="Arial,sans-serif" font-size="29" font-weight="bold">YOUR STORY HERE</text>
+<rect x="66" y="936" width="435" height="53" fill="#EFF5FC" stroke="#163B76" stroke-width="4"/><text x="88" y="972" fill="#163B76" font-family="Arial,sans-serif" font-size="25" font-weight="bold">BÌA TRUYỆN ĐANG CẬP NHẬT</text>
+</svg>
