@@ -41,8 +41,10 @@
 .studio-page .team-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; margin-top: 25px; }
 .studio-page .team-card { border: 1px solid #a5c3f5; border-radius: 4px; background: #f3f8fe; padding: 25px 30px 15px; color: var(--blue); }
 .studio-page .card-id, .studio-page .role { font-size: 10px; font-weight: bold; letter-spacing: .16em; }
-.studio-page .monogram { position: relative; text-align: center; font: 800 clamp(80px, 8vw, 130px)/1 Barlow, Impact, sans-serif; padding: 18px 0 8px; border-bottom: 1px solid #a5c3f5; }
-.studio-page .monogram:after { content: '◇'; position: absolute; bottom: -8px; left: 50%; padding: 0 7px; transform: translateX(-50%); background: #f3f8fe; font: 16px/1 Arial, sans-serif; }
+.studio-page .team-portrait { position: relative; margin-top: 18px; padding-bottom: 18px; border-bottom: 1px solid #a5c3f5; }
+.studio-page .team-portrait img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; object-position: center 35%; border-radius: 2px; }
+.studio-page .team-portrait-duong img { object-position: center bottom; }
+.studio-page .team-portrait:after { content: '◇'; position: absolute; bottom: -8px; left: 50%; padding: 0 7px; transform: translateX(-50%); background: #f3f8fe; font: 16px/1 Arial, sans-serif; }
 .studio-page .team-card h3 { margin-top: 14px; font-size: 19px; }
 .studio-page .role { margin-top: 5px; color: #486a9f; line-height: 1.5; }
 .studio-page .team-card a { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; margin-top: 8px; font-size: 11px; font-weight: bold; letter-spacing: .08em; }
@@ -105,7 +107,6 @@
   .studio-page .process-art { min-height: 0; }
   .studio-page .team-grid { grid-template-columns: 1fr; gap: 14px; }
   .studio-page .team-card { padding: 20px 25px 10px; }
-  .studio-page .monogram { font-size: 90px; }
   .studio-page .studio-contact .scene { object-fit: contain; object-position: right bottom; }
   .studio-page .studio-contact-inner { min-height: 300px; align-items: flex-start; }
   .studio-page .studio-contact-inner > div { width: 85%; }
