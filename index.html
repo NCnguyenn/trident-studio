@@ -7,61 +7,33 @@
   <title>
    Trang chủ | Trident Studio — Visual Storytelling &amp; Artbook
   </title>
-  <meta content="Trident Studio: studio sáng tạo chuyên về Visual Storytelling, Illustration, Comic Artbook và Graphic Design." name="description"/>
+  <meta content="Trident Studio: khám phá cốt truyện, xem trước các trang vẽ và đọc trọn bộ 3 ấn phẩm Comic Artbook độc lập." name="description"/>
   <link href="assets/favicon.png" rel="icon" type="image/png"/>
-  <link href="assets/home.css?v=20261028-unified-hero-2" rel="stylesheet"/>
-  <script defer="" src="assets/site.js">
+  <link href="assets/home.css?v=20261104-unified" rel="stylesheet"/>
+  <script defer="" src="assets/site.js?v=20261102-conveyor-dossier">
   </script>
  </head>
- <body>
+ <body class="home-page">
   <header class="site-header">
-   <div class="wrap header-inner">
-    <a aria-label="Trident Studio - Trang chủ" class="brand" href="index.html">
-     <img alt="Trident Studio" src="assets/brand/logo-horizontal.png"/>
-    </a>
-    <nav aria-label="Điều hướng chính" class="main-nav">
-     <a aria-current="page" href="index.html">
-      HOME
-     </a>
-     <a href="studio.html">
-      STUDIO
-     </a>
-     <a href="truyen-tranh.html">
-      COMICS
-     </a>
-     <a href="lien-he.html">
-      CONTACT
-     </a>
-    </nav>
-    <a class="button header-contact" href="lien-he.html">
-     LET'S TALK
-     <span aria-hidden="true">
-      ↗
-     </span>
-    </a>
-    <details class="mobile-nav">
-     <summary>
-      MENU
-      <span aria-hidden="true">
-       ☰
-      </span>
-     </summary>
-     <nav aria-label="Điều hướng di động">
-      <a aria-current="page" href="index.html">
-       HOME
-      </a>
-      <a href="studio.html">
-       STUDIO
-      </a>
-      <a href="truyen-tranh.html">
-       COMICS
-      </a>
-      <a href="lien-he.html">
-       CONTACT
-      </a>
-     </nav>
-    </details>
-   </div>
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Trident Studio - Trang chủ"><img src="assets/brand/logo-horizontal.png" alt="Trident Studio" width="420" height="126"></a>
+      <nav class="main-nav" aria-label="Điều hướng chính">
+        <a href="index.html" aria-current="page">HOME</a>
+        <a href="studio.html">STUDIO</a>
+        <a href="truyen-tranh.html">COMICS</a>
+        <a href="lien-he.html?v=20261104-unified">CONTACT</a>
+      </nav>
+      <a class="header-contact" href="lien-he.html?v=20261104-unified">LET’S TALK <span aria-hidden="true">↗</span></a>
+      <details class="mobile-nav">
+        <summary>MENU <span aria-hidden="true">☰</span></summary>
+        <nav aria-label="Điều hướng di động">
+          <a href="index.html" aria-current="page">HOME</a>
+          <a href="studio.html">STUDIO</a>
+          <a href="truyen-tranh.html">COMICS</a>
+          <a href="lien-he.html?v=20261104-unified">CONTACT</a>
+        </nav>
+      </details>
+    </div>
   </header>
   <main id="main">
    <section class="hero">
@@ -100,7 +72,7 @@
       <p class="hero-values">
        <span>
        </span>
-       01    STORY / IMAGE / EMOTION
+       VISUAL STORYTELLING · ILLUSTRATION · COMIC ARTBOOK · GRAPHIC DESIGN
       </p>
       <a class="scroll-link" href="#artbooks">
        SCROLL TO EXPLORE
@@ -111,9 +83,10 @@
      </div>
     </div>
    </section>
+
    <section class="collection section" id="artbooks">
     <div class="wrap">
-     <div class="section-heading">
+     <div class="section-heading collection-top">
       <div>
        <p class="eyebrow">
         01 / ARTBOOK COLLECTION
@@ -124,6 +97,9 @@
          WE TELL.
         </span>
        </h2>
+       <p class="collection-lead">
+        Chuyển qua lại từng ấn phẩm trên băng chuyền để đọc tóm tắt cốt truyện và xem trước 3 trang vẽ mở đầu ngay tại đây.
+       </p>
       </div>
       <a class="button outline" href="truyen-tranh.html">
        VIEW ALL ISSUES
@@ -132,82 +108,240 @@
        </span>
       </a>
      </div>
-     <div class="books">
-      <article class="book book-main">
-       <a class="book-image" href="truyen-01.html">
-        <img alt="Bìa Whispers of a Broken Mind" height="1272" src="assets/comics/story-01/cover.jpg" width="1800"/>
-       </a>
-       <div class="book-info">
-        <div>
-         <h3>
-          Whispers of a Broken Mind
-         </h3>
-         <p>
-          Phạm Thành Đạt
-         </p>
-         <small>
-          ISSUE 01  ·  17 PAGES
-         </small>
-        </div>
-        <a class="text-link" href="truyen-01.html">
-         ĐỌC TRUYỆN
-         <span aria-hidden="true">
-          ↗
-         </span>
-        </a>
+
+     <div class="conveyor-shell" data-home-conveyor="">
+      <div class="conveyor-bar">
+       <div aria-label="Chọn ấn phẩm để xem chi tiết" class="conveyor-tabs" role="tablist">
+        <button aria-selected="true" class="conveyor-tab is-active" data-conveyor-tab="0" role="tab" type="button">
+         <span class="tab-num">01</span>
+         <span class="tab-name">Whispers of a Broken Mind</span>
+        </button>
+        <button aria-selected="false" class="conveyor-tab" data-conveyor-tab="1" role="tab" type="button">
+         <span class="tab-num">02</span>
+         <span class="tab-name">The Forgotten Masterpiece</span>
+        </button>
+        <button aria-selected="false" class="conveyor-tab" data-conveyor-tab="2" role="tab" type="button">
+         <span class="tab-num">03</span>
+         <span class="tab-name">Rừng Thông Đêm Ấy</span>
+        </button>
        </div>
-      </article>
-      <article class="book">
-       <a class="book-image" href="truyen-02.html">
-        <img alt="Bìa The Forgotten Masterpiece" height="720" loading="lazy" src="assets/comics/story-02/cover.jpg" width="1018"/>
-       </a>
-       <div class="book-info">
-        <div>
-         <h3>
-          The Forgotten Masterpiece
-         </h3>
-         <p>
-          Noir
-         </p>
-         <small>
-          ISSUE 02  ·  18 PAGES
-         </small>
-        </div>
-        <a class="text-link" href="truyen-02.html">
-         ĐỌC TRUYỆN
-         <span aria-hidden="true">
-          ↗
-         </span>
-        </a>
+       <div class="conveyor-nav">
+        <button aria-label="Ấn phẩm trước" class="conveyor-arrow" data-conveyor-prev="" type="button">
+         ‹
+        </button>
+        <span aria-live="polite" class="conveyor-status" data-conveyor-counter="">
+         01 / 03
+        </span>
+        <button aria-label="Ấn phẩm tiếp theo" class="conveyor-arrow" data-conveyor-next="" type="button">
+         ›
+        </button>
        </div>
-      </article>
-      <article class="book">
-       <a class="book-image" href="truyen-03.html">
-        <img alt="Bìa Rừng Thông Đêm Ấy" height="1273" loading="lazy" src="assets/comics/story-03/cover.jpg" width="1800"/>
-       </a>
-       <div class="book-info">
-        <div>
-         <h3>
-          Rừng Thông Đêm Ấy
-         </h3>
-         <p>
-          Võ Hải Đường
-         </p>
-         <small>
-          ISSUE 03  ·  07 PAGES
-         </small>
+      </div>
+
+      <div class="conveyor-stage">
+       <div class="conveyor-visual">
+        <div aria-label="Băng chuyền bìa truyện — bấm vào bìa bên cạnh hoặc vuốt ngang để chuyển đổi" class="conveyor-viewport" tabindex="0">
+         <div class="conveyor-track">
+          <button aria-label="Issue 01: Whispers of a Broken Mind" class="conveyor-card" data-conveyor-card="0" data-slot="active" type="button">
+           <span class="card-badge">ISSUE 01 · 17 TRANG</span>
+           <img alt="Bìa Whispers of a Broken Mind — Phạm Thành Đạt" height="1272" src="assets/comics/story-01/cover.jpg" width="1800"/>
+           <span class="card-caption">
+            <strong>Whispers of a Broken Mind</strong>
+            <small>Phạm Thành Đạt · Bấm để xem trước trang vẽ</small>
+           </span>
+          </button>
+          <button aria-label="Issue 02: The Forgotten Masterpiece" class="conveyor-card" data-conveyor-card="1" data-slot="next" type="button">
+           <span class="card-badge">ISSUE 02 · 18 TRANG</span>
+           <img alt="Bìa The Forgotten Masterpiece — Noir" height="720" loading="lazy" src="assets/comics/story-02/cover.jpg" width="1018"/>
+           <span class="card-caption">
+            <strong>The Forgotten Masterpiece</strong>
+            <small>Noir · Bấm để xem trước trang vẽ</small>
+           </span>
+          </button>
+          <button aria-label="Issue 03: Rừng Thông Đêm Ấy" class="conveyor-card" data-conveyor-card="2" data-slot="prev" type="button">
+           <span class="card-badge">ISSUE 03 · 07 TRANG</span>
+           <img alt="Bìa Rừng Thông Đêm Ấy — Võ Hải Đường" height="1273" loading="lazy" src="assets/comics/story-03/cover.jpg" width="1800"/>
+           <span class="card-caption">
+            <strong>Rừng Thông Đêm Ấy</strong>
+            <small>Võ Hải Đường · Bấm để xem trước trang vẽ</small>
+           </span>
+          </button>
+         </div>
+         <div aria-hidden="true" class="conveyor-progress">
+          <span data-conveyor-bar=""></span>
+         </div>
         </div>
-        <a class="text-link" href="truyen-03.html">
-         ĐỌC TRUYỆN
-         <span aria-hidden="true">
-          ↗
-         </span>
-        </a>
+        <p class="conveyor-hint">
+         <span>⇄</span> Tự động luân chuyển · Bấm vào cuốn hé hai bên, dùng phím ← → hoặc vuốt ngang để đổi truyện
+        </p>
        </div>
-      </article>
+
+       <div class="conveyor-dossiers">
+        <article class="story-dossier is-active" data-conveyor-panel="0" data-read-url="truyen-01.html#reader" data-story-title="Whispers of a Broken Mind">
+         <div class="dossier-meta">
+          <span class="issue-pill">ISSUE 01 · 17 TRANG</span>
+          <span class="genre-pill">PSYCHOLOGICAL · DRAMA</span>
+         </div>
+         <h3>Whispers of a Broken Mind</h3>
+         <p class="dossier-author">
+          Tác giả &amp; Minh họa: <strong>Phạm Thành Đạt</strong>
+         </p>
+         <p class="dossier-synopsis">
+          Sau biến cố mất đi người bạn duy nhất, Bình An — cô gái mang chứng tâm thần phân liệt — dần bị cuốn vào khu rừng ma mị phản chiếu nỗi cô độc và tổn thương nội tâm, nơi ranh giới giữa thực tại và ảo giác ngày càng xóa nhòa.
+         </p>
+         <div class="preview-block">
+          <div class="preview-head">
+           <span>XEM TRƯỚC 3 TRANG ĐẦU</span>
+           <small>Bấm vào trang để phóng to rõ nét</small>
+          </div>
+          <div class="preview-thumbs">
+           <button class="preview-thumb" data-full="assets/comics/story-01/originals/page-01.jpg" data-preview-open="0" type="button">
+            <img alt="Whispers of a Broken Mind — Trang 01" height="1240" loading="lazy" src="assets/comics/story-01/page-01.jpg" width="1754"/>
+            <span>TRANG 01</span>
+           </button>
+           <button class="preview-thumb" data-full="assets/comics/story-01/originals/page-02.jpg" data-preview-open="1" type="button">
+            <img alt="Whispers of a Broken Mind — Trang 02" height="1240" loading="lazy" src="assets/comics/story-01/page-02.jpg" width="1754"/>
+            <span>TRANG 02</span>
+           </button>
+           <button class="preview-thumb" data-full="assets/comics/story-01/originals/page-03.jpg" data-preview-open="2" type="button">
+            <img alt="Whispers of a Broken Mind — Trang 03" height="1809" loading="lazy" src="assets/comics/story-01/page-03.jpg" width="2560"/>
+            <span>TRANG 03</span>
+           </button>
+          </div>
+         </div>
+         <div class="dossier-actions">
+          <a class="button dossier-read-btn" href="truyen-01.html#reader">
+           ĐỌC TRỌN BỘ (17 TRANG)
+           <span aria-hidden="true">↗</span>
+          </a>
+          <a class="button outline" href="truyen-01.html">
+           CHI TIẾT ẤN PHẨM
+           <span aria-hidden="true">↗</span>
+          </a>
+         </div>
+        </article>
+
+        <article class="story-dossier" data-conveyor-panel="1" data-read-url="truyen-02.html#reader" data-story-title="The Forgotten Masterpiece">
+         <div class="dossier-meta">
+          <span class="issue-pill">ISSUE 02 · 18 TRANG</span>
+          <span class="genre-pill">GOTHIC MYSTERY · FANTASY</span>
+         </div>
+         <h3>The Forgotten Masterpiece</h3>
+         <p class="dossier-author">
+          Tác giả &amp; Minh họa: <strong>Noir</strong>
+         </p>
+         <p class="dossier-synopsis">
+          Khao khát sáng tác kiệt tác để đời, nhạc sĩ tài năng Victor Valois tìm đến khu rừng nguyền rủa và chiếc hộp nhạc Giai Điệu Khai Sáng của Madam Z — chấp nhận đánh đổi thị lực rồi chính sự tồn tại của mình trong buổi hòa nhạc cuối cùng.
+         </p>
+         <div class="preview-block">
+          <div class="preview-head">
+           <span>XEM TRƯỚC 3 TRANG ĐẦU</span>
+           <small>Bấm vào trang để phóng to rõ nét</small>
+          </div>
+          <div class="preview-thumbs">
+           <button class="preview-thumb" data-full="assets/comics/story-02/originals/page-01.jpg" data-preview-open="0" type="button">
+            <img alt="The Forgotten Masterpiece — Trang 01" height="718" loading="lazy" src="assets/comics/story-02/page-01.jpg" width="1014"/>
+            <span>TRANG 01</span>
+           </button>
+           <button class="preview-thumb" data-full="assets/comics/story-02/originals/page-02.jpg" data-preview-open="1" type="button">
+            <img alt="The Forgotten Masterpiece — Trang 02" height="719" loading="lazy" src="assets/comics/story-02/page-02.jpg" width="1018"/>
+            <span>TRANG 02</span>
+           </button>
+           <button class="preview-thumb" data-full="assets/comics/story-02/originals/page-03.jpg" data-preview-open="2" type="button">
+            <img alt="The Forgotten Masterpiece — Trang 03" height="768" loading="lazy" src="assets/comics/story-02/page-03.jpg" width="1086"/>
+            <span>TRANG 03</span>
+           </button>
+          </div>
+         </div>
+         <div class="dossier-actions">
+          <a class="button dossier-read-btn" href="truyen-02.html#reader">
+           ĐỌC TRỌN BỘ (18 TRANG)
+           <span aria-hidden="true">↗</span>
+          </a>
+          <a class="button outline" href="truyen-02.html">
+           CHI TIẾT ẤN PHẨM
+           <span aria-hidden="true">↗</span>
+          </a>
+         </div>
+        </article>
+
+        <article class="story-dossier" data-conveyor-panel="2" data-read-url="truyen-03.html#reader" data-story-title="Rừng Thông Đêm Ấy">
+         <div class="dossier-meta">
+          <span class="issue-pill">ISSUE 03 · 07 TRANG</span>
+          <span class="genre-pill">SLICE OF LIFE · COMEDY</span>
+         </div>
+         <h3>Rừng Thông Đêm Ấy</h3>
+         <p class="dossier-author">
+          Tác giả &amp; Minh họa: <strong>Võ Hải Đường</strong>
+         </p>
+         <p class="dossier-synopsis">
+          Đêm cắm trại giữa đồi thông Đà Lạt se lạnh của bộ ba Vịt, Chó và Cáo bỗng náo loạn bởi tiếng bước chân kỳ lạ sau lều cùng những màn trêu chọc dở khóc dở cười, để rồi khép lại bằng hơi ấm chân thành của tình bạn.
+         </p>
+         <div class="preview-block">
+          <div class="preview-head">
+           <span>XEM TRƯỚC 3 TRANG ĐẦU</span>
+           <small>Bấm vào trang để phóng to rõ nét</small>
+          </div>
+          <div class="preview-thumbs">
+           <button class="preview-thumb" data-full="assets/comics/story-03/originals/page-01.png" data-preview-open="0" type="button">
+            <img alt="Rừng Thông Đêm Ấy — Trang 01" height="1273" loading="lazy" src="assets/comics/story-03/page-01.jpg" width="1800"/>
+            <span>TRANG 01</span>
+           </button>
+           <button class="preview-thumb" data-full="assets/comics/story-03/originals/page-02.png" data-preview-open="1" type="button">
+            <img alt="Rừng Thông Đêm Ấy — Trang 02" height="1273" loading="lazy" src="assets/comics/story-03/page-02.jpg" width="1800"/>
+            <span>TRANG 02</span>
+           </button>
+           <button class="preview-thumb" data-full="assets/comics/story-03/originals/page-03.png" data-preview-open="2" type="button">
+            <img alt="Rừng Thông Đêm Ấy — Trang 03" height="1273" loading="lazy" src="assets/comics/story-03/page-03.jpg" width="1800"/>
+            <span>TRANG 03</span>
+           </button>
+          </div>
+         </div>
+         <div class="dossier-actions">
+          <a class="button dossier-read-btn" href="truyen-03.html#reader">
+           ĐỌC TRỌN BỘ (07 TRANG)
+           <span aria-hidden="true">↗</span>
+          </a>
+          <a class="button outline" href="truyen-03.html">
+           CHI TIẾT ẤN PHẨM
+           <span aria-hidden="true">↗</span>
+          </a>
+         </div>
+        </article>
+       </div>
+      </div>
      </div>
     </div>
    </section>
+
+   <dialog aria-label="Xem trước trang truyện" class="preview-dialog" id="preview-dialog">
+    <div class="dialog-inner">
+     <div class="dialog-header">
+      <div>
+       <p class="eyebrow" data-dialog-counter="">TRANG 01 / 03 · BẢN XEM TRƯỚC</p>
+       <h3 data-dialog-title="">Whispers of a Broken Mind</h3>
+      </div>
+      <button aria-label="Đóng cửa sổ xem trước" class="button outline dialog-close" data-dialog-close="" type="button">
+       ✕ ĐÓNG
+      </button>
+     </div>
+     <div class="dialog-stage">
+      <button aria-label="Trang xem trước liền trước" class="dialog-arrow" data-dialog-prev="" type="button">‹</button>
+      <figure class="dialog-figure">
+       <img alt="Trang xem trước" data-dialog-image="" src="assets/comics/story-01/page-01.jpg"/>
+      </figure>
+      <button aria-label="Trang xem trước kế tiếp" class="dialog-arrow" data-dialog-next="" type="button">›</button>
+     </div>
+     <div class="dialog-footer">
+      <p>Bạn đang xem 3 trang mở đầu. Mở trình đọc đầy đủ để theo dõi trọn vẹn câu chuyện.</p>
+      <a class="button" data-dialog-read="" href="truyen-01.html#reader">
+       ĐỌC TRỌN BỘ
+       <span aria-hidden="true">↗</span>
+      </a>
+     </div>
+    </div>
+   </dialog>
+
    <section class="philosophy section">
     <div class="wrap philosophy-grid">
      <div>
@@ -224,7 +358,7 @@
        </span>
       </h2>
       <p>
-       Ba mũi nhọn. Một tinh thần sáng tạo.
+       Ba mũi nhọn sáng tạo hội tụ trong từng trang truyện và dự án hình ảnh.
       </p>
       <a class="button outline" href="studio.html">
        MEET THE STUDIO
@@ -243,7 +377,7 @@
          STORY
         </h3>
         <p>
-         Mỗi ý tưởng bắt đầu từ một câu chuyện.
+         Mỗi dự án bắt đầu từ kịch bản chặt chẽ, nhịp kể lôi cuốn và thế giới nhân vật có chiều sâu.
         </p>
        </div>
       </article>
@@ -256,7 +390,7 @@
          IMAGE
         </h3>
         <p>
-         Hình ảnh mở ra một thế giới.
+         Ngôn ngữ phân cảnh, ánh sáng và đường nét minh họa mở ra không gian thị giác mang dấu ấn riêng.
         </p>
        </div>
       </article>
@@ -269,52 +403,21 @@
          EMOTION
         </h3>
         <p>
-         Cảm xúc khiến câu chuyện ở lại.
+         Sự đồng cảm là đích đến cuối cùng giúp câu chuyện chạm tới và ở lại lâu dài cùng người đọc.
         </p>
        </div>
       </article>
      </div>
     </div>
    </section>
-   <div class="manifesto">
-    <span>
-     ONE VISION — ONE PROJECT — ONE RESULT
-    </span>
-   </div>
-   <section class="featured">
-    <img alt="" aria-hidden="true" class="scene" height="866" loading="lazy" src="assets/home/featured-studio.jpg" width="1817"/>
-    <div class="wrap feature-inner">
-     <div class="feature-copy">
-      <p class="eyebrow">
-       03 / FEATURED ARTBOOK
-      </p>
-      <h2>
-       WHISPERS OF A
-       <br/>
-       BROKEN MIND.
-      </h2>
-      <p>
-       Một hành trình giữa thực tại, ký ức và thế giới nội tâm.
-      </p>
-      <p class="feature-author">
-       Tác giả &amp; Minh họa: Phạm Thành Đạt
-      </p>
-      <a class="button" href="truyen-01.html#reader">
-       ĐỌC TRỌN BỘ
-       <span aria-hidden="true">
-        ↗
-       </span>
-      </a>
-      <p class="eyebrow feature-meta">
-       17 PAGES   /   PSYCHOLOGICAL
-      </p>
-     </div>
-    </div>
-   </section>
+
    <section class="contact">
     <img alt="" aria-hidden="true" class="scene" height="866" loading="lazy" src="assets/home/contact-studio.jpg" width="1816"/>
     <div class="wrap contact-inner">
      <div class="contact-copy">
+      <p class="eyebrow">
+       03 / COLLABORATION
+      </p>
       <h2>
        LET’S CREATE
        <br/>
@@ -327,7 +430,7 @@
        <br/>
        từ một cuộc trò chuyện.
       </p>
-      <a class="button" href="lien-he.html">
+      <a class="button" href="lien-he.html?v=20261104-unified">
        LIÊN HỆ HỢP TÁC
        <span aria-hidden="true">
         ↗
@@ -337,58 +440,11 @@
     </div>
    </section>
   </main>
-  <footer class="footer">
-   <div class="wrap">
-    <div class="footer-grid">
-     <div>
-      <a aria-label="Trident Studio - Trang chủ" href="index.html">
-       <img alt="Trident Studio" src="assets/brand/logo-horizontal.png"/>
-      </a>
-      <p>
-       Visual Storytelling · Illustration · Comic Artbook · Graphic Design
-      </p>
-     </div>
-     <nav aria-label="Điều hướng chân trang">
-      <b>
-       EXPLORE
-      </b>
-      <a href="index.html">
-       HOME
-      </a>
-      <a href="studio.html">
-       STUDIO
-      </a>
-      <a href="truyen-tranh.html">
-       COMICS
-      </a>
-      <a href="lien-he.html">
-       CONTACT
-      </a>
-     </nav>
-     <nav aria-label="Các ấn phẩm">
-      <b>
-       ARTBOOK ISSUES
-      </b>
-      <a href="truyen-01.html">
-       Whispers of a Broken Mind
-      </a>
-      <a href="truyen-02.html">
-       The Forgotten Masterpiece
-      </a>
-      <a href="truyen-03.html">
-       Rừng Thông Đêm Ấy
-      </a>
-     </nav>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a href="index.html" aria-label="Trident Studio - Trang chủ"><img src="assets/brand/logo-emblem.png" width="23" height="26" alt=""></a>
+      <small>© 2026 Trident Studio</small>
     </div>
-    <div class="footer-bottom">
-     <span>
-      © 2026 TRIDENT STUDIO
-     </span>
-     <span>
-      STORY / IMAGE / EMOTION
-     </span>
-    </div>
-   </div>
   </footer>
  </body>
 </html>
